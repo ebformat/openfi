@@ -11,7 +11,7 @@ public class OpenDemoDriver {
 		// TODO Auto-generated method stub
 		ConfigurableApplicationContext runp = SpringApplication.run(OpenDemoDriver.class, args);
 		runp.start();
-
+		System.out.println("Programme main");
 	}
 
 }
